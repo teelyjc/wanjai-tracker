@@ -7,7 +7,7 @@
   const imagePath = [
     { href: "/gallery/gallery1.jpeg", class: "w-48", alt: "gallery_file_1" },
     { href: "/gallery/gallery2.jpeg", class: "w-48", alt: "gallery_file_2" },
-    { href: "/gallery/gallery3.jpeg", class: "w-72", alt: "gallery_file_3" },
+    { href: "/gallery/gallery3.jpeg", class: "w-48", alt: "gallery_file_3" },
     { href: "/gallery/gallery4.jpeg", class: "w-48", alt: "gallery_file_4" },
   ];
 
