@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Prompt;
+  src: url("/fonts/Prompt-Regular.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slide-up {
+  animation: slideDown ease 1.2s forwards 0s;
+}
+
+.slide-down {
+  animation: slideUp ease 1.2s forwards 0s;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px); 
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px); 
+  }
+}
